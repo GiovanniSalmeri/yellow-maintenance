@@ -10,7 +10,7 @@ To enable the maintenance mode for the whole site, set `Status: maintenance` in 
 
 To enable the maintenance mode for individual pages, set `Status: maintenance` in the [page settings](https://github.com/datenstrom/yellow-extensions/tree/master/source/core#settings-page) at the top of a page. 
 
-You can continue to edit the pages in the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit) and the file system.
+You can edit the pages in the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit) and the file system.
 
 ## Example
 
