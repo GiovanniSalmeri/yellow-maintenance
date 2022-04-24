@@ -26,7 +26,7 @@ CoreError503Text: Siamo temporaneamente in stato di manutenzione. [yellow error]
 MaintenancePageError: <a href="@url">Per favore accedi</a> o autorizza l'indirizzo @ip.
 
 Language: nl
-CoreError503Title: Service niet beschikbaar
+CoreError503Title: Dienst niet beschikbaar
 CoreError503Text: We zijn tijdelijk offline voor onderhoud. [yellow error]
 MaintenancePageError: <a href="@url">Gelieve aan te melden</a> or het adres @ip toe te staan.
 
