@@ -2,7 +2,7 @@
 
 Support for maintenance.
 
-<p align="center"><img src="maintenance-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
+<p align="center"><img src="maintenance-screenshot.png?raw=true" alt="Screenshot"></p>
 
 ## How to enable the maintenance mode
 
