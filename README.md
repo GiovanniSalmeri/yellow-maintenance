@@ -12,7 +12,7 @@ Support for maintenance.
 
 To enable the maintenance mode for the whole site, set `Status: maintenance` in file `system/extensions/yellow-system.ini`.
 
-To enable the maintenance mode for individual pages, set `Status: maintenance` in the [page settings](https://github.com/annaesvensson/yellow-core#settings) at the top of a page. 
+To enable the maintenance mode for individual pages, set `Status: maintenance` in the [page settings](https://github.com/annaesvensson/yellow-core#settings-page) at the top of a page. 
 
 You can edit the pages in the [web browser](https://github.com/annaesvensson/yellow-edit) and the file system.
 
