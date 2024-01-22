@@ -55,7 +55,7 @@ class YellowMaintenance {
             $page->set("description", $this->yellow->language->getTextHtml("maintenanceDescription"));
             $pageError = "";
             if ($this->yellow->extension->isExisting("edit")) {
-                $pageError .= str_replace([ "@url", "@ip" ], [ $page->get("pageEditUrl"), $this->yellow->toolbox->getServer("REMOTE_ADDR") ], $this->yellow->language->getText("maintenancePageError"));
+                $pageError .= str_replace([ "@url", "@ip" ], [ $page->get("editPageUrl"), $this->yellow->toolbox->getServer("REMOTE_ADDR") ], $this->yellow->language->getText("maintenancePageError"));
             }
             $page->error(503, $pageError);
         }
