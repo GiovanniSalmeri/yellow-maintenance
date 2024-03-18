@@ -9,7 +9,7 @@ class YellowMaintenance {
     public function onLoad($yellow) {
         $this->yellow = $yellow;
         $this->yellow->system->setDefault("maintenanceIps", "");
-        $this->yellow->language->setDefaults([
+        $this->yellow->language->setDefaults(array(
             "Language: de",
             "CoreError503Title: Dienst nicht verfügbar",
             "CoreError503Text: Wir sind wegen Wartungsarbeiten zeitweise außer Betrieb. [yellow error]",
@@ -45,7 +45,7 @@ class YellowMaintenance {
             "CoreError503Text: Estamos temporariamente em baixa para manutenção. [yellow error]",
             "MaintenanceDescription: Conteúdo temporariamente indisponível",
             "MaintenancePageError: <a href=\"@url\">Por favor, entre</a> ou autorize o endereço @ip.",
-        ]);
+        ));
     }
 
     // Handle page layout
