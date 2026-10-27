@@ -2,7 +2,7 @@
 // Maintenance extension, https://github.com/GiovanniSalmeri/yellow-maintenance
 
 class YellowMaintenance {
-    const VERSION = "0.9.1";
+    const VERSION = "1.0.0";
     public $yellow;         // access to API
 
     // Handle initialisation
